@@ -3,22 +3,22 @@ const path = require("path");
 const { config } = require("vuepress-theme-hope");
 
 
-const GITHUB_USERNAME = '{{ghname}}' // TODO 
+const GITHUB_USERNAME = '{{ghname}}'
 
 
 module.exports = config({
-  base: "/blog/",
-  title: 'Codeworks Student Learning Blog',
+  base: "/cw-journal/",
+  title: 'Codeworks Student Journal',
   description: "My thoughts notes and reflections while attending Codeworks Immersive FullStack Program",
   head: [
     ['meta', { name: 'theme-color', content: '#3093d9' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'application-name', content: `${GITHUB_USERNAME} Learning Blog` }],
+    ['meta', { name: 'application-name', content: `${GITHUB_USERNAME} Journal` }],
     ['meta', { name: 'ROBOTS', content: 'FOLLOW' }],
     ['meta', { name: 'og:image', content: 'https://bcw.blob.core.windows.net/public/img/8600856373152463' }],
     ['meta', { name: 'og:type', content: 'article' }],
-    ['meta', { name: 'og:url', content: `https://${GITHUB_USERNAME}.github.io/blog` }],
+    ['meta', { name: 'og:url', content: `https://${GITHUB_USERNAME}.github.io/cw-journal` }],
     ['meta', { name: 'og:title', content: 'Learn to Code. Develop Your Future' }],
     ['meta', { name: 'og:locale', content: 'en_US' }]
   ],
@@ -26,7 +26,7 @@ module.exports = config({
     pwa: false,
     logo: 'https://bcw.blob.core.windows.net/public/img/2900578872732848',
     editLinks: true,
-    repo: `${GITHUB_USERNAME}/student-workbook`,
+    repo: `${GITHUB_USERNAME}/cw-journal`,
     repoLabel: 'Contribute!',
     docsDir: 'src',
     docsBranch: 'main',
@@ -58,12 +58,13 @@ module.exports = config({
       ]
     },
   },
+  // @ts-ignore
   markdown: {
     lineNumbers: true
   },
   plugins: [
     '@vuepress/plugin-back-to-top',
-    ["@mr-hope/sitemap", { hostname: `https://${GITHUB_USERNAME}.github.io/blog` }],
+    ["@mr-hope/sitemap", { hostname: `https://${GITHUB_USERNAME}.github.io/cw-journal` }],
   ]
 })
 
