@@ -4,9 +4,9 @@
 set -e
 
 # commit current src
-git add .
-git commit -m 'deploy'
-git push
+git add . || true
+git commit -m 'deploy' || true
+git push || true
 
 # build
 npm run build
@@ -14,7 +14,7 @@ npm run build
 # navigate into the build output directory
 cd src/.vuepress/dist
 
-git init
+git init 
 git add .
 git checkout -b gh-pages
 git remote add origin https://github.com/{{ghname}}/fs-journal.git
