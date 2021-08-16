@@ -2,12 +2,10 @@ const fs = require("fs");
 const path = require("path");
 const { config } = require("vuepress-theme-hope");
 
-
 const GITHUB_USERNAME = '{{ghname}}'
 
-
 module.exports = config({
-  base: "/cw-journal/",
+  base: "/fs-journal/",
   title: 'Codeworks Student Journal',
   description: "My thoughts notes and reflections while attending Codeworks Immersive FullStack Program",
   head: [
@@ -18,7 +16,7 @@ module.exports = config({
     ['meta', { name: 'ROBOTS', content: 'FOLLOW' }],
     ['meta', { name: 'og:image', content: 'https://bcw.blob.core.windows.net/public/img/8600856373152463' }],
     ['meta', { name: 'og:type', content: 'article' }],
-    ['meta', { name: 'og:url', content: `https://${GITHUB_USERNAME}.github.io/cw-journal` }],
+    ['meta', { name: 'og:url', content: `https://${GITHUB_USERNAME}.github.io/fs-journal` }],
     ['meta', { name: 'og:title', content: 'Learn to Code. Develop Your Future' }],
     ['meta', { name: 'og:locale', content: 'en_US' }]
   ],
@@ -26,7 +24,7 @@ module.exports = config({
     pwa: false,
     logo: 'https://bcw.blob.core.windows.net/public/img/2900578872732848',
     editLinks: true,
-    repo: `${GITHUB_USERNAME}/cw-journal`,
+    repo: `${GITHUB_USERNAME}/fs-journal`,
     repoLabel: 'Contribute!',
     docsDir: 'src',
     docsBranch: 'main',
@@ -64,7 +62,7 @@ module.exports = config({
   },
   plugins: [
     '@vuepress/plugin-back-to-top',
-    ["@mr-hope/sitemap", { hostname: `https://${GITHUB_USERNAME}.github.io/cw-journal` }],
+    ["@mr-hope/sitemap", { hostname: `https://${GITHUB_USERNAME}.github.io/fs-journal` }],
   ]
 })
 
