@@ -31,7 +31,27 @@ a {
 
 article a {
   padding: 0.15rem;
-  border-radius: 3px;
   color: var(--bs-dark);
   border-bottom: 2px solid var(--bs-secondary);
+  transition: all 0.15s linear;
+  position: relative;
+}
+
+article a:after {
+  border-radius: inherit;
+  bottom: 0;
+  color: inherit;
+  content: "";
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1);
+  background-color: currentColor;
+}
+
+article a:hover::after {
+  opacity: 0.1;
 }
