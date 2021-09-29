@@ -1,30 +1,24 @@
 <header class="site-header">
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-    {%- if titles_size > 0 -%}
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-        <a href="/" class="navbar-brand d-flex" :to="{ name: 'Home' }">
-          <div class="d-flex flex-column align-items-center">
-            <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a href="/" class="navbar-brand d-flex" :to="{ name: 'Home' }">
+      <div class="d-flex flex-column align-items-center">
+        <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-          <span class="ms-2 d-none d-lg-flex">CodeWorks Journal</span>
-          </div>
-        </a>
+        <span class="ms-2 d-none d-lg-flex">CodeWorks Journal</span>
+      </div>
+    </a>
 
-        <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-        </div>
-      </nav>
-    {%- endif -%}
-  </div>
+    <ul class="navbar-nav me-auto">
+      {%- for path in page_paths -%}
+      {%- assign my_page = site.pages | where: "path", path | first -%}
+      {%- if my_page.title -%}
+      <li>
+        <a class="btn text-success lighten-30 selectable text-uppercase" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+  </nav>
 </header>
