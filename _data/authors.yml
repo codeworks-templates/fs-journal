@@ -1,3 +1,5 @@
 CodeWorks:
-  picture: /assets/img/codeworks.png
-  github: boisecodeworks
+  name        : "CodeWorks"
+  email       : "support@boisecodeworks.com"
+  bio         : "Learn to Code. Develop your future!"
+  avatar      : "assets/img/codeworks.png"
