@@ -12,7 +12,7 @@ function init() {
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    dataSource: '/fs-journal/search.json',
+    json: '/fs-journal/search.json',
     searchResultTemplate: '<li class="selectable mb-2"><a href="{url}" title="{title}">{title}</a></li>',
     noResultsText: 'No results found.',
     limit: 10,
