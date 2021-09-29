@@ -11,7 +11,6 @@ header_pages:
 plugins:
   - jekyll-seo-tag
 minima:
-  skin: dark
   social_links:
     twitter: boisecodeworks
     github: boisecodeworks
