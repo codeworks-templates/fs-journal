@@ -7,3 +7,20 @@
   integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <script src="/fs-journal/assets/js/prism.js"></script>
 <script src="/fs-journal/app/main.js" type="module"></script>
+<!-- HTML elements for search -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Search</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="mb-3 d-flex align-items-center bg-white elevation-2 rounded">
+      <input type="text" id="search-input" placeholder="Search..." class="form-control">
+    </div>
+    <ul id="results-container"></ul>
+  </div>
+</div>
+
+<!-- or without installing anything -->
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
