@@ -9,11 +9,14 @@ function setActiveNavLink() {
 function init() {
   setActiveNavLink()
   // @ts-ignore
-  var sjs = SimpleJekyllSearch({
+  SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: '/search.json',
-    searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+    dataSource: '/fs-journal/search.json',
+    searchResultTemplate: '<li class="selectable mb-2"><a href="{url}" title="{title}">{title}</a></li>',
+    noResultsText: 'No results found.',
+    limit: 10,
+    fuzzy: true,
   })
 }
 

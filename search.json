@@ -9,8 +9,7 @@ layout: none
         "category" : "{{ page.category }}",
         "tags"     : "{{ page.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
-        "date"     : "{{ page.date }}",
-        "content"  : "{{ page.content | strip_html | strip_newlines }}"
+        "date"     : "{{ page.date }}"
      {% endif %}
    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
