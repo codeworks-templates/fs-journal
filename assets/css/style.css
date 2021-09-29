@@ -1,3 +1,6 @@
+article {
+  max-width: min(100%, 100ch);
+}
 article img {
   max-width: 100%;
 }
