@@ -23,3 +23,8 @@ article img:only-child {
   margin: 3rem auto;
   max-width: min(500px, 60%);
 }
+
+a {
+  text-decoration: none;
+  color: unset;
+}
