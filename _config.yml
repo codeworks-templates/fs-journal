@@ -10,10 +10,3 @@ header_pages:
   - quizes.md
 plugins:
   - jekyll-seo-tag
-minima:
-  social_links:
-    twitter: boisecodeworks
-    github: boisecodeworks
-    facebook: boisecodeworks
-    instagram: boisecodeworks
-    linkedin: school/boisecodeworks

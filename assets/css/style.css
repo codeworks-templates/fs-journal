@@ -30,8 +30,8 @@ a {
 }
 
 article a {
-  background: var(--bs-dark);
   padding: 0.15rem;
   border-radius: 3px;
-  color: #86ffbf;
+  color: var(--bs-dark);
+  border-bottom: 2px solid var(--bs-secondary);
 }
