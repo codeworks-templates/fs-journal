@@ -8,6 +8,9 @@ logo: /assets/img/codeworks.png
 plugins:
   - jekyll-seo-tag
 
+minima:
+  skin: dark
+
 social:
   name: CodeWorks
   links:
