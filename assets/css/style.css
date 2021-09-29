@@ -28,3 +28,10 @@ a {
   text-decoration: none;
   color: unset;
 }
+
+article a {
+  background: var(--bs-dark);
+  padding: 0.15rem;
+  border-radius: 3px;
+  color: #86ffbf;
+}
