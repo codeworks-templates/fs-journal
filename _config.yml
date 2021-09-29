@@ -1,4 +1,17 @@
+theme: minima
 title: CodeWorks Journal
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+tagline: Learn to Code. Develop your future!
+description: My notes and reflections while learning to code
+author: CodeWorks
+logo: /img/codeworks.png
 
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+
+social:
+  name: CodeWorks
+  links:
+    - https://twitter.com/boisecodeworks
+    - https://www.facebook.com/boisecodeworks
+    - https://www.linkedin.com/school/boisecodeworks
+    - https://github.com/boisecodeworks
