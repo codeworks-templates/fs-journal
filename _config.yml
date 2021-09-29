@@ -12,10 +12,9 @@ plugins:
   - jekyll-seo-tag
 minima:
   skin: dark
-social:
-  name: CodeWorks
-  links:
-    - https://twitter.com/boisecodeworks
-    - https://www.facebook.com/boisecodeworks
-    - https://www.linkedin.com/school/boisecodeworks
-    - https://github.com/boisecodeworks
+  social_links:
+    twitter: boisecodeworks
+    github: boisecodeworks
+    facebook: boisecodeworks
+    instagram: boisecodeworks
+    linkedin: school/boisecodeworks
