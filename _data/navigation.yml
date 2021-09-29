@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "Reflections"
+    url: /reflections/
+
+  - title: "Notes"
+    url: /notes/    
+
+  - title: "Quizes"
+    url: /quizes/    
