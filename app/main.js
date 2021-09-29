@@ -13,7 +13,7 @@ function init() {
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '/fs-journal/search.json',
-    searchResultTemplate: '<li class="selectable p-2 rounded"><a href="{url}" title="{title}">{title}</a></li>',
+    searchResultTemplate: '<a href="{url}" title="{title}"><li class="selectable p-2 text-dark rounded">{title}</li></a>',
     noResultsText: 'No results found.',
     limit: 10,
     fuzzy: true,
