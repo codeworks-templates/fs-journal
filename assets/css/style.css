@@ -8,3 +8,12 @@ article img {
 ul {
   list-style: none;
 }
+
+article img:only-child {
+  display: block !important;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 5px;
+  margin: 3rem auto;
+  max-width: min(500px, 60%);
+}
