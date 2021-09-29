@@ -1,1 +1,1 @@
-console.log('is this thing on?')
+// JAVASCRIPT HOOKS
