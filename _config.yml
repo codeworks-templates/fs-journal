@@ -7,6 +7,6 @@ logo: /assets/img/codeworks.png
 header_pages:
   - reflections.md
   - notes.md
-  - quizes.md
+  - quizzes.md
 plugins:
   - jekyll-seo-tag
