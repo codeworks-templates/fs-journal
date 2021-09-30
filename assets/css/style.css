@@ -10,6 +10,7 @@ article {
 
 ul {
   list-style: none;
+  padding: 1.2rem;
 }
 
 article img {
@@ -68,9 +69,8 @@ article li a {
   border-bottom: none;
 }
 article li input {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
-
 
 article a:hover::after {
   opacity: 0.1;
@@ -80,4 +80,23 @@ article blockquote {
   border-left: 6px solid var(--bs-primary);
   background: #dfdff650;
   padding: 0.5rem 2rem;
+}
+
+article table {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+article table th {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: var(--bs-dark);
+  color: white;
+}
+
+article table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
