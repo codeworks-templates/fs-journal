@@ -67,6 +67,10 @@ article a:after {
 article li a {
   border-bottom: none;
 }
+article li input {
+  margin-right: .5rem;
+}
+
 
 article a:hover::after {
   opacity: 0.1;
