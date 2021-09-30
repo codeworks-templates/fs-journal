@@ -61,7 +61,7 @@ __Bold__
 
 # **Blockquotes**
 
-> 💡 Quotation: Call special attention with a blockquote
+> **💡 Quotation:** call special attention with a blockquote
 
 # **Code Blocks**
 
