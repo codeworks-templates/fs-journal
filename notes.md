@@ -1,4 +1,5 @@
 ## Notes
+  - [Markdown](notes/00-markdown.md)  
   - [GIT](notes/01-git.md)  
   - [CSS](notes/02-css.md)  
   - [HTML](notes/03-html.md)  
