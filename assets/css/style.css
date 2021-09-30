@@ -80,6 +80,10 @@ article blockquote {
   border-left: 6px solid var(--bs-primary);
   background: #dfdff650;
   padding: 0.5rem 2rem;
+  font-size: 14pt;
+}
+article blockquote p {
+  margin: 0;
 }
 
 article table {
@@ -92,7 +96,7 @@ article table {
 }
 
 article table th {
-  padding: .75rem;
+  padding: 0.75rem;
   background-color: var(--bs-dark);
   color: white;
 }
@@ -102,5 +106,5 @@ article table tr:nth-child(even) {
 }
 
 article table td {
-  padding: .75rem;
+  padding: 0.75rem;
 }
