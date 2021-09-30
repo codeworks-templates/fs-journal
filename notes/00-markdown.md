@@ -57,11 +57,11 @@ __Bold__
 | Left | Center | Right |
 | :--- | :----: | ----: |
 | •    | •      | •     |
+| •    | •      | •     |
 
 # **Blockquotes**
 
-> Quotation
-> > Nested quotatio
+> 💡 Quotation: Call special attention with a blockquote
 
 # **Code Blocks**
 
