@@ -14,11 +14,6 @@
 
 ###### Heading 6
 
-Heading 1
-=========
-Heading 2
----------
-
 # **Formatting**
 
 _Italic_

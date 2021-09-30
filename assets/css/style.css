@@ -7,12 +7,18 @@
 article {
   max-width: min(100%, 100ch);
 }
-article img {
-  max-width: 100%;
-}
 
 ul {
   list-style: none;
+}
+
+article img {
+  display: inline-block;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 5px;
+  margin: 0 1rem;
+  max-width: min(500px, 60%);
 }
 
 article img:only-child {
@@ -64,4 +70,10 @@ article li a {
 
 article a:hover::after {
   opacity: 0.1;
+}
+
+article blockquote {
+  border-left: 6px solid var(--bs-primary);
+  background: #dfdff650;
+  padding: 0.5rem 2rem;
 }
