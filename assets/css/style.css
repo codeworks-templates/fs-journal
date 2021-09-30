@@ -24,6 +24,10 @@ article img:only-child {
   max-width: min(500px, 60%);
 }
 
+article ul li{
+  line-height: 2rem;
+}
+
 a {
   text-decoration: none;
   color: unset;
