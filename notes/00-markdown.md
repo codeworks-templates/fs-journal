@@ -68,7 +68,7 @@ __Bold__
 `Inline code`
 
 *Fenced code block*
-```javascript
+```javascript{3,7}
 function democode(){
     // NOTE this is a comment
     let message = 'this message is a string'
