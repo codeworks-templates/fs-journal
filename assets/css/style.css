@@ -88,15 +88,19 @@ article table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
+  border-color: #dee2e6;
 }
 
 article table th {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding: .75rem;
   background-color: var(--bs-dark);
   color: white;
 }
 
 article table tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+article table td {
+  padding: .75rem;
 }
