@@ -20,12 +20,13 @@
 ```
 
 ```
-**5.** What are the two ways to view the logs from your Heroku app.
+**5.** What do you title the repository for your GitHub landing page?
+
 <!-- enter you answer in the space below -->
 ```
 
 ```
-**6.** How do you update an app already deployed on Heroku?
+**6.** What is the primary purpose of End-to-End (E2E) Testing?
 <!-- enter you answer in the space below -->
 ```
 
