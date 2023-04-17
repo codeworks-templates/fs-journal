@@ -1,74 +1,74 @@
-## Reflections
+## CodeWorks Journals
 
-+ **Building Blocks of Web Development**
-  - [Basic Git](reflections/week01/01.md)
-  - [HTML/CSS](reflections/week01/02.md)
-  - [Cheating At Design](reflections/week01/03.md)
-  - [Wireframing](reflections/week01/04.md)
-  - [Week 1 Reflection](reflections/week01/05.md)
-+ **Introduction to JavaScript**
-  - [JavaScript](reflections/week02/01.md)
-  - [Functions](reflections/week02/02.md)
-  - [Chrome Developer Tools](reflections/week02/03.md)
-  - [Making Mistakes](reflections/week02/04.md)
-  - [Week 2 Reflection](reflections/week02/05.md)
-+ **Application Architecture**
-  - [JavaScript Modules](reflections/week03/01.md)
-  - [Encapsulation](reflections/week03/02.md)
-  - [Proxy Objects](reflections/week03/03.md)
-  - [Observables](reflections/week03/04.md)
-  - [Week 3 Reflection](reflections/week03/05.md)
-+ **Asynchronous Code**
-  - [Working with Asynchronous Code](reflections/week04/01.md)
-  - [Promises](reflections/week04/02.md)
-  - [Async/Await](reflections/week04/03.md)
-  - [What is ReST](reflections/week04/04.md)
-  - [Week 4 Reflection](reflections/week04/05.md)
-+ **Server side concerns & relational data**
-  - [Query Parameters](reflections/week05/01.md)
-  - [MongoDb Relationships](reflections/week05/02.md)
-  - [Timeboxing](reflections/week05/03.md)
-  - [Using Virtuals](reflections/week05/04.md)
-  - [Week 5 Reflection](reflections/week05/05.md)
-+ **Advanced Front-End Frameworks**
-  - [Component Based Architecture](reflections/week06/01.md)
-  - [The Mighty Props](reflections/week06/02.md)
-  - [Lifecycle Hooks](reflections/week06/03.md)
-  - [Nested Routes](reflections/week06/04.md)
-  - [Week 6 Reflection](reflections/week06/05.md)
-+ **Working in a Professional Environment**
-  - [Pair Programming](reflections/week07/01.md)
-  - [Code Documentation](reflections/week07/02.md)
-  - [A Better UI](reflections/week07/03.md)
-  - [Partner Reflection](reflections/week07/04.md)
-  - [Week 7 Reflection](reflections/week07/05.md)
-+ **Fullstack Express with Vue**
-  - [The Developer Portfolio](reflections/week08/01.md)
-  - [Scrum for Small Teams](reflections/week08/02.md)
-  - [Testing](reflections/week08/03.md)
-  - [Testing in Vue](reflections/week08/04.md)
-  - [Week 8 Reflection](reflections/week08/05.md)
-+ **Deploying Applications**
-  - [Capstone Reflection](reflections/week09/01.md)
-  - [Continuous Integration](reflections/week09/02.md)
-  - [Scrum](reflections/week09/03.md)
-  - [🔒 SSL](reflections/week09/04.md)
-  - [Week 9 Reflection](reflections/week09/05.md)
-+ **C# Fundamentals & SQL**
-  - [CSharp DataTypes](reflections/week10/01.md)
-  - [Dotnet Collections](reflections/week10/02.md)
-  - [Welcome to SQL](reflections/week10/03.md)
-  - [Enum's](reflections/week10/04.md)
-  - [Week 10 Reflection](reflections/week10/05.md)
-+ **Fullstack Dotnet**
-  - [Inheritance](reflections/week11/01.md)
-  - [SQL Relationships](reflections/week11/02.md)
-  - [SQL Attacks](reflections/week11/03.md)
-  - [Final Check-in](reflections/week11/04.md)
-  - [Week 11 Reflection](reflections/week11/05.md)
-+ **Proving Ground**
-  - [Day 1 Reflection](reflections/week12/01.md)
-  - [Day 2 Reflection](reflections/week12/02.md)
-  - [Day 3 Reflection](reflections/week12/03.md)
-  - [Day 4 Reflection](reflections/week12/04.md)
-  - [Final Reflection](reflections/week12/05.md)
+* **Building Blocks of Web Development**
+  + [Assignments](journal/01/assignment-links.md)
+  + [Questions](journal/01/questions.md)
+  + [Reading Topics](journal/01/readings.md)
+  + [Reflection](journal/01/reflection.md)
+
+* **Introduction to JavaScript**
+  + [Assignments](journal/02/assignment-links.md)
+  + [Questions](journal/02/questions.md)
+  + [Reading Topics](journal/02/readings.md)
+  + [Reflection](journal/02/reflection.md)
+
+* **Application Architecture**
+  + [Assignments](journal/03/assignment-links.md)
+  + [Questions](journal/03/questions.md)
+  + [Reading Topics](journal/03/readings.md)
+  + [Reflection](journal/03/reflection.md)
+
+* **Asynchronous Code**
+  + [Assignments](journal/04/assignment-links.md)
+  + [Questions](journal/04/questions.md)
+  + [Reading Topics](journal/04/readings.md)
+  + [Reflection](journal/04/reflection.md)
+
+* **Server side concerns & relational data**
+  + [Assignments](journal/05/assignment-links.md)
+  + [Questions](journal/05/questions.md)
+  + [Reading Topics](journal/05/readings.md)
+  + [Reflection](journal/05/reflection.md)
+
+* **Advanced Front-End Frameworks**
+  + [Assignments](journal/06/assignment-links.md)
+  + [Questions](journal/06/questions.md)
+  + [Reading Topics](journal/06/readings.md)
+  + [Reflection](journal/06/reflection.md)
+
+* **Working in a Professional Environment**
+  + [Assignments](journal/07/assignment-links.md)
+  + [Questions](journal/07/questions.md)
+  + [Reading Topics](journal/07/readings.md)
+  + [Reflection](journal/07/reflection.md)
+
+<!-- * **Fullstack Express with Vue**
+  + [Assignments](journal/08/assignment-links.md)
+  + [Questions](journal/08/questions.md)
+  + [Reading Topics](journal/08/readings.md)
+  + [Reflection](journal/08/reflection.md)
+
+* **Deploying Applications**
+  + [Assignments](journal/09/assignment-links.md)
+  + [Questions](journal/09/questions.md)
+  + [Reading Topics](journal/09/readings.md)
+  + [Reflection](journal/09/reflection.md) -->
+
+* **CSharp Fundamentals & SQL**
+  + [Assignments](journal/10/assignment-links.md)
+  + [Questions](journal/10/questions.md)
+  + [Reading Topics](journal/10/readings.md)
+  + [Reflection](journal/10/reflection.md)
+
+* **Fullstack Dotnet**
+  + [Assignments](journal/11/assignment-links.md)
+  + [Questions](journal/11/questions.md)
+  + [Reading Topics](journal/11/readings.md)
+  + [Reflection](journal/11/reflection.md)
+
+* **Proving Ground**
+  + [Day 1 Reflection](journal/12/01.md)
+  + [Day 2 Reflection](journal/12/02.md)
+  + [Day 3 Reflection](journal/12/03.md)
+  + [Day 4 Reflection](journal/12/04.md)
+  + [Final Reflection](journal/12/05.md)
