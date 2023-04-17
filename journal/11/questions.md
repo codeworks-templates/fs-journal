@@ -34,7 +34,7 @@
     PRIMARY KEY (id)
   )
 
-  CREATE TABLE doctors (
+  CREATE TABLE patient_doctors (
     id INT NOT NULL AUTO_INCREMENT,
     doctorId INT NOT NULL,
     patientId INT NOT NULL,

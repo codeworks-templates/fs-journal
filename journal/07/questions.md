@@ -1,4 +1,5 @@
 # Managing the Fullstack Application
+
 1. Describe the two ways to bind Data in Vue?
 
   > | ANSWER HERE |

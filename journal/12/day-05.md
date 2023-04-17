@@ -1,6 +1,6 @@
 # Final Reflection
 
-The final week, the final day of coursework. How did it go? Are you ready for career week?
+The final week, the final day of coursework. How did it go? Are you ready for the Final week?
 
 ## Prompts
 
