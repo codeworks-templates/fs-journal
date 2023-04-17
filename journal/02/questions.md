@@ -13,26 +13,26 @@
 
 04. Given this array: How could you remove the `pineapple`?
 
-```js
-let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
-```
+    ```js
+    let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
+    ```
 
     > | ANSWER HERE |
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
-```js
-let you = {
-    name: "You",
-    hair: true,
-    friends: []
-}
-let them = {
-    name: "Them",
-    hair: false,
-    friends: []
-}
-```
+    ```js
+    let you = {
+        name: "You",
+        hair: true,
+        friends: []
+    }
+    let them = {
+        name: "Them",
+        hair: false,
+        friends: []
+    }
+    ```
 
     > | ANSWER HERE |
 
