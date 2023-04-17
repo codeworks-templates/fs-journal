@@ -1,6 +1,5 @@
 # CSharp and SQL Fundamentals
 
-![replace_me](https://codeworks.blob.core.windows.net/public/assets/img/illustrations/placeholder.svg)
 
 * **📖 [C# Data Types](https://codeworksacademy.com/fs-student-guide/resources/wk10/01-CSharp-Generics)**
 * **📖 [C# List](https://codeworksacademy.com/fs-student-guide/resources/wk10/02-List-Methods)**

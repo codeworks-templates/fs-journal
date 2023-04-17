@@ -1,7 +1,5 @@
 # Managing the Fullstack Application
 
-![replace_me](https://codeworks.blob.core.windows.net/public/assets/img/illustrations/placeholder.svg)
-
 <!-- TODO Come up with reading for this week? -->
 * 
 <!-- TODO move elsewhere -->
