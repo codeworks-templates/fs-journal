@@ -5,8 +5,7 @@ description: My notes and reflections while learning to code
 author: CodeWorks
 logo: /assets/img/codeworks.png
 header_pages:
-  - reflections.md
+  - journals.md
   - notes.md
-  - quizzes.md
 plugins:
   - jekyll-seo-tag

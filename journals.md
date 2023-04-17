@@ -67,8 +67,8 @@
   + [Reflection](journal/11/reflection.md)
 
 * **Proving Ground**
-  + [Day 1 Reflection](journal/12/01.md)
-  + [Day 2 Reflection](journal/12/02.md)
-  + [Day 3 Reflection](journal/12/03.md)
-  + [Day 4 Reflection](journal/12/04.md)
-  + [Final Reflection](journal/12/05.md)
+  + [Day 1 Reflection](journal/12/day-01.md)
+  + [Day 2 Reflection](journal/12/day-02.md)
+  + [Day 3 Reflection](journal/12/day-03.md)
+  + [Day 4 Reflection](journal/12/day-04.md)
+  + [Final Reflection](journal/12/day-05.md)
