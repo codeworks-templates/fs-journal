@@ -4,11 +4,10 @@ My name is {{fullname}}. I am a student at [CodeWorks](https://boisecodeworks.co
 
 ## Work
 
-  + [My Github](https://github.com/{{ghname}})
-  + [Portfolio](https://{{ghname}}.github.io/)
+* [My Github](https://github.com/{{ghname}})
+* [Portfolio](https://{{ghname}}.github.io/)
 
 ## Contact
 
-  + [Resume](https://{{ghname}}.github.io/resume)
-  + Email: {{ghemail}}
-  
+* [Resume](https://{{ghname}}.github.io/resume)
+* Email: {{ghemail}}
