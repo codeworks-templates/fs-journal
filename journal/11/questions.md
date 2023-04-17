@@ -1,31 +1,31 @@
 # A bit more CSharp and SQL
 
 1. What does ***inheritance*** accomplish for us in C#?
-<!-- enter you answer in the space below -->
+> | ANSWER HERE |
 ```
 
 ```
 
 2. How does ***member inheritance*** work in C#? Does a `Class` inherit all members of the base `Class`?
-<!-- enter you answer in the space below -->
+> | ANSWER HERE |
 ```
 
 ```
 
 3. How does ***accessibility*** affect inheritance?
-<!-- enter you answer in the space below -->
+> | ANSWER HERE |
 ```
 
 ```
 
 4. What is the difference between a `PRIMARY KEY` and a `FOREIGN KEY`
-<!-- enter you answer in the space below -->
+> | ANSWER HERE |
 ```
 
 ```
 
 5. What is an ***alias***?
-<!-- enter you answer in the space below -->
+> | ANSWER HERE |
 ```
 
 ```
@@ -58,7 +58,7 @@ CREATE TABLE doctors (
 
 ```
 
-<!-- enter you answer in the space below -->
+> | ANSWER HERE |
 ```
 
 ```
